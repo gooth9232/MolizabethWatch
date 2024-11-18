@@ -1,5 +1,5 @@
 # 「専務とその仲間たちウォッチ」
-![Animation](https://github.com/gooth9232/MolizabethWatch/blob/master/img/molizabeth_gb.mp4)  
+![Animation](https://github.com/gooth9232/MolizabethWatch/blob/master/img/molizabeth_gb.gif)  
 ここを見ているのは健生ゼネラルカンパニー工作員に違いない！ので、Sorry! Japanese Only.  
 このプログラムは E-Ink smartwatch [Watchy](https://watchy.sqfmi.com/)専用です  
   
