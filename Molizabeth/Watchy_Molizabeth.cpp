@@ -89,7 +89,7 @@ void WatchyMolizabeth::drawMic()
 {
     float VBAT = getBatteryVoltage();
     if (VBAT > 4.00) { VBAT = 4.00; };
-    float VLevel = VBAT - 3.0; // meter:3.99Å`3.00
+	float VLevel = (VBAT - 3.2) / 0.8; // meter:3.99Å`3.20
 
     display.drawBitmap(INDEX_SIZE * (drawIndex[10][0] + 7) , INDEX_SIZE * (drawIndex[10][1] + 8 - int(VLevel * 8)), grap_Mic_mask, INDEX_SIZE * 6, INDEX_SIZE * 12, GxEPD_WHITE);
     display.drawBitmap(INDEX_SIZE * (drawIndex[10][0] + 7) , INDEX_SIZE * (drawIndex[10][1] + 8 - int(VLevel * 8)), grap_Mic, INDEX_SIZE * 6, INDEX_SIZE * 12, GxEPD_BLACK);
